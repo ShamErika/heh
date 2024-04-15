@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="slogo.jpg" type="image/x-icon">
+    <style>
+    body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+    .w3-row-padding img {margin-bottom: 12px}
+   
+    .w3-sidebar {width: 120px;background: #222;}
+
+    #main {margin-left: 120px}
+  
+    @media only screen and (max-width: 600px) {#main {margin-left: 0}}
+
+    h4 {
+    font-weight: 50;
+    text-align: center;
+    font-size: 20px;
+    font-family: Hack, sans-serif;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #000, #fff, #000);
+    letter-spacing: 5px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: shine 5s linear infinite;
+    position: relative;
+  }
+  
+  @keyframes shine {
+    0% {
+      background-position-x: -500%;
+    }
+    100% {
+      background-position-x: 500%;
+    }
+  }
+
+  
+    </style>
+  </head>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="slogo.jpg" style="width:100%">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#My Work" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>PROJECTS</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+
+  <a href="https://shamerika.github.io/resume/" class="w3-bar-item w3-button w3-padding-large w3-hover-black"> 
+     <i class="fa fa-id-card w3-xxlarge"></i>
+     <p>RESUME</p>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#My Work" class="w3-bar-item w3-button" style="width:25% !important">My Work</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+
+    <h1>Hi, I'm <span class="auto-typed"></span>
+    </h1>
+
+    <p>Welcome to my Personal Portfolio</p>
+    <img src="https://avatars.githubusercontent.com/u/131671577?s=400&u=022b1f2b1e6f644ca622de10baa0819f61061740&v=4" alt="shamy" class="w3-image" width="500" height="500">
+  </header>
+
+  <h4>Web Designer & Web Developer </h4>
+
+ 
+
+  <!-- About Section huehue-->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">Sham Erika Carantes Aquino</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p> I am a student who studies Web Technology. Experiencing the world of web designing and developing. I usually procrastinate
+      but since I need money, I study website creations and different strategic coding styles. Understanding the beauty of websites and web
+      has a wider range of what to exepect when creating one. <br>
+
+
+    </p>
+    <p>"The more websites we create, the more money we make."- Sham Erika the 1st</p>
+    
+    <h3 class="w3-padding-16 w3-text-light-grey">My Hobbies</h3>
+
+      <li>Sleeping</li> 
+      <li>Eating CAKE</li>
+      <li>Reading Novels, Manhwa, Manhua and Manga</li>
+      <li>Traveling</li>
+      <li>Playing with my cats</li>
+      
+   
+    <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
+    <p class="w3-wide">Web Development</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:65%"></div>
+    </div>
+    <p class="w3-wide">Web Designing</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:95%"></div>
+    </div>
+    <p class="w3-wide">UI/UX Designing</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:50%"></div>
+    </div><br>
+    
+    <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">5</span><br>
+        Projects Done
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">69+</span><br>
+        Happy Clients
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">1</span><br>
+        Meetings
+      </div>
+    </div>
+
+    
+        
+
+  <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="My Work">
+    <h2 class="w3-text-light-grey">My Projects</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <!-- Grid for My Work -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+       
+          <img src="https://github.com/ShamErika/pastrybook/blob/main/recipe.png?raw=true" alt="" style="width:100%">
+          <h3><a href="https://shamerika.github.io/pastrybook/"> Recipe Book </a></h3>
+
+         
+
+        <img src="https://github.com/ShamErika/grumpyjoe/blob/main/grumpyjoe.png?raw=true" style="width:100%">
+        <h3><a href="https://shamerika.github.io/grumpyjoe/"> Grumpy Joe Clone </a></h3>
+      </div>
+
+      <div class="w3-half">
+
+        <img src="https://github.com/ShamErika/record-managament/blob/main/record.png?raw=trueg" style="width:100%">
+        <h3><a href="https://shamerika.github.io/record-managament/"> Record Management </a></h3>
+
+        <img src="https://github.com/ShamErika/seca-planner/blob/main/seca.png?raw=true" style="width:100%">
+        <h3><a href="https://shamerika.github.io/seca-planner/"> SECA Planner </a></h3>
+
+        <img src="https://github.com/ShamErika/responsive-website/blob/main/res%20web.png?raw=true" style="width:100%">
+        <h3><a href="https://shamerika.github.io/responsive-website/"> Surveys </a></h3>
+
+
+
+
+      </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +917011646625</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: shamerika13@gmail.com</p>
+      <p><i class="fa fa-instagram fa-fw w3-text-white w3-xxlarge w3-margin-right"> <a href="https://www.instagram.com/siam.irikah/"></i> Instagram: siam.irikah</a></p>
+    </div><br>
+
+   
+
+
+
+
+</div>
+
+
+
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script src="index.js"></script>
+
+
+
+
+
+</body>
+</html>
